@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import { ScreenContainer } from "../src/components/screenContainer/ScreenContainer";
 
-export default function about() {
+export default function About() {
   return (
     <ScreenContainer>
       <View>

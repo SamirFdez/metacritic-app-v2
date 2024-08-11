@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { View, FlatList, ActivityIndicator, Text } from "react-native";
 import { AnimatedGameCard } from "./gameCard/AnimatedGameCard";
 import { getBestGames } from "../lib/metacriticApi";
@@ -18,9 +17,8 @@ export function Main() {
   }, []);
 
   return (
-    <View>
+    <View style={{backgroundColor: "#000"}}>
       <StatusBar style="light" />
-      <Text style={{ color: "white" }}> Adios </Text>
       {!games.length ? (
         <ActivityIndicator size="large" />
       ) : (
