@@ -2,6 +2,8 @@
 
 Metacritic App is a React Native application developed with Expo to browse and view reviews and ratings for games.
 
+This is the second version of metacritic-app, with new improvements, new technologies and more complete than the first.
+
 ## Requirements
 
 - Node.js
